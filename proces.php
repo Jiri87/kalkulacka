@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="form.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Výpočty</title>
- </head>
+</head>
 <body>
 <?php 
 
