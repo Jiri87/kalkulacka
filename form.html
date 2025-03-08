@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulacka</title>
+</head>
+<body>
+    <h1 class="h1">Vítej počtáři</h1>
+    <form class="form" action="proces.php" method="POST">
+        <table>
+            <tr>
+                <td class="table">Vložte první číslo</td>
+                <td><input name="a" type="number"></td>
+            </tr>
+            <tr>
+                <td>Vložte druhé číslo</td>
+                <td><input name="b" type="number"></td>
+            </tr>
+            <tr>
+                <td>Vyber operaci:</td>
+                <td><select name="operace">
+                    <option value="scitani">Sčítání</option>
+                    <option value="odecitani">Odečítání</option>
+                    <option value="nasobeni">Násobení</option>
+                    <option value="deleni">Dělení</option>
+                </select></td>
+            </tr>
+            <tr>
+               <td><button type="submit">Vypočítat</button></td> 
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
